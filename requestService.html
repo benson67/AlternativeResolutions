@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Alternative Resolutions</title>
+    <link href="aResolutions.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://webdev.cs.uwosh.edu/students/petert77/team6/scripts/login.js" type="text/javascript"></script>
+    <script src="http://webdev.cs.uwosh.edu/students/petert77/team6/scripts/clientRestrict.js" type="text/javascript"></script>
+    <script src="http://webdev.cs.uwosh.edu/students/petert77/team6/scripts/requestService.js"></script>
+</head>
+
+<body id="nojs">
+<div id="header">
+    <div id="loginBox">
+        <input name="loginID" type="text" tabindex="1" value="User Name" id="txtLoginID"/><br />
+        <input name="password" type="password" tabindex="2" value="Password" id="txtLoginPW"/><br />
+        <input name="submit" type="submit" value="Login" tabindex="3" id="btnLogin"/>
+    </div>
+    <div id="logoutBox">
+        <p id="lblUsername"></p>
+        <button id="btnLogout">Logout</button>
+    </div>
+    <h1><img alt="ARILogo" height="90" src="images/ARLogo.png" width="110">Alternative Resolutions, Inc.</h1>
+    <p>Assisting individuals and organizations to manage communication, conflict, and change in healthy, constructive ways</p>
+    <p><br/></p>
+</div>
+
+
+<ul id="nav">
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
+    <li><a href="services.html">Services Offered</a>
+        <ul>
+            <li><a href="mediation.html">Mediation</a></li>
+            <li><a href="facilitation.html">Facilitation Services</a></li>
+            <li><a href="consultation.html">Consultation</a></li>
+            <li><a href="coaching.html">Coaching</a></li>
+            <li><a href="sysDesign.html">System Design</a></li>
+            <li><a href="training.html">Training</a></li>
+        </ul>
+    </li>
+</ul>
+<br />
+
+<div id="center">
+    <select id="selType">
+        <option value="default">Select Service Type</option>
+    </select>
+    <select id="selSubtype" disabled="disabled">
+        <option value="default">Select Specific Service</option>
+    </select>
+    <input type="date" id="txtDate"><br/>
+    Days: <input type="text" id="txtLength"> <br/>
+    Preferred Location: <input type="text" id="txtLocation"><br/>
+    <button id="btnRequest">Request</button>
+</div>
+
+
+<aside>
+    right side
+</aside>
+
+
+<footer>
+    Footer
+</footer>
+
+
+</body>
+
+</html>
